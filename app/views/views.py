@@ -29,7 +29,7 @@ from flask.views import MethodView
 
 @app.route('/')
 def prueba():
-    return '¡Hola, Docker y Flask funcionan correctamente!'
+    return '<h1>¡Hola, Docker y Flask funcionan correctamente!</h1>'
 
 class UserView(MethodView):
 
