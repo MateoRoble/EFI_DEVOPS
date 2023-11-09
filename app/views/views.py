@@ -27,6 +27,10 @@ from app.schemas.schema import (
 
 from flask.views import MethodView
 
+@app.route('/')
+def prueba():
+    return '¡Hola, Docker y Flask funcionan correctamente!'
+
 class UserView(MethodView):
 
     def get(self, user_id=None):
