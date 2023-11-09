@@ -11,7 +11,7 @@ Asegúrate de tener instalados los siguientes elementos antes de comenzar:
 1. Clona este repositorio:
 
     ```bash
-    git clone git@github.com:MateoRoble/EFI_DOCKER.git
+    git clone git@github.com:MateoRoble/EFI_DEVOPS.git
     ```
 
 2. Copia el archivo `.env.example` y renómbralo a `.env`. Luego, configura las variables de entorno según tus necesidades.
